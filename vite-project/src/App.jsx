@@ -10,10 +10,14 @@ import Contact from './pages/Contact';
 import Login from './pages/Login';
 import ControlledForm from './components/ControlledForm';
 import UncontrolledForm from './components/UncontrolledForm';
+import FormikForm from './components/FormFormik';
 
 function App() {
   return (
     <>
+
+      <FormikForm />
+
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
